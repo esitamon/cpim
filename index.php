@@ -1,5 +1,7 @@
 <?php include './cpim/templates/header.php';?>
 
+<section class="wrapper">
+
 <section class="content1">
     <div class="logo">
         <img src="cpim\img\logo.png" width="12%" alt="logo">
@@ -29,9 +31,9 @@
         <div class="our-pastor"> <p>About Our Pastor</p></div>
         <div class="youtube"><p>Watch us on</p></div>
         <div class="visit-us"><p>Visit us</p></div>
-    </div>
-    
+    </div> 
 </section>
+
 <section class="content2">
     <div class="sermon">
         <p>Latest Sermons</p>
@@ -79,6 +81,9 @@
             <span>+3462883856<br> christpalace@gmail.com</span>
         </div>
     </div>
+</section>
 
 </section>
+    
+
 <?php include './cpim/templates/footer.php' ?>

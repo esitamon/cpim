@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
 /* resuable font and more */
+/* mixins */
 /* End resuable variable declaration */
 /* General functional attribute */
 * {
@@ -18,12 +19,35 @@ body {
 .video {
   z-index: -1;
   position: absolute;
-  bottom: 0;
-  top: 0;
+  z-index: -2;
 }
 
 nav {
   z-index: 1;
+}
+
+/* Page wrapper styling */
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: 400px auto 300px;
+      grid-template-rows: 400px auto 300px;
+  margin-bottom: 5%;
+}
+
+/*styling section1 */
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 /*styling section2 */
