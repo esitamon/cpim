@@ -1,2 +1,13 @@
-@import url(;)
-$main-font: 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+/* resuable font and more */
+
+    $main-font: 'Baloo Paaji 2', cursive;
+    $second-font:'Special Elite', cursive;
+    $fallback-font: Arial, Helvetica, sans-serif;
+    $footer-color:#000000;
+    $highlighted-section-color:#bdc3c7;
+    $button-color: #e67e22;
+
+/* End resuable variable declaration */
