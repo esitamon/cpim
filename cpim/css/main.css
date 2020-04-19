@@ -12,4 +12,26 @@
 body {
   color: #000000;
 }
+
+/*styling section2 */
+/*visiting info*/
+.video {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+}
+
+nav {
+  z-index: 1;
+}
+
+/*styling section2 */
+/*visiting info*/
+.adress {
+  width: 20%;
+  background-image: url("cpimimgmark1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 /*# sourceMappingURL=main.css.map */

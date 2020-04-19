@@ -17,6 +17,11 @@
     @mixin box-shadow-for-section(){
 
     }
+    @mixin background-images($c){
+        background-image: url($c);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 
 /* End resuable variable declaration */
 
@@ -29,3 +34,25 @@
 body{
     color:$main-textcolor;
 }
+/*styling section2 */
+    /*visiting info*/
+      .video{
+            z-index: -1;
+            position: absolute;
+            bottom: 0;
+            top: 0;
+        }
+    nav{
+        z-index: 1;
+    }
+    
+
+
+/*styling section2 */
+
+    /*visiting info*/
+
+    .adress{
+        width:20%;
+        @include background-images("cpim\img\mark1.jpg");
+    }
