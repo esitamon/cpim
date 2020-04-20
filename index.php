@@ -13,41 +13,45 @@
             <li><a href="http://">Connect</a></li>
             <li><a href="http://">Get in touch</a></li>
         </ul>
-        <div class="button-give">
-            <p><a href="">Give</a></p>
-        </div>
     </nav>
-    <video class="video" autoplay muted loop id="myVideo">
+    <div class="button-give">
+            <p><a href="">Give</a></p>
+    </div>
+    <video class="myvideo" autoplay muted loop id="myVideo">
         <source src="cpim\img\water.mp4" type="video/mp4">
     </video>
     <div class="overlay">
         <div>
-            <p><h1>Welcome to the</h1></p>
-            <p><h1>Christ palace international</h1></p>
+            <p>Welcome to the</p>
+            <p id="x">Christ palace international</p>
         </div>
 
     </div>
     <div class="media-button">
-        <div class="our-pastor"> <p>About Our Pastor</p></div>
-        <div class="youtube"><p>Watch us on</p></div>
-        <div class="visit-us"><p>Visit us</p></div>
+        <div class="our-pastor"> <p><a href="">About Our Pastor</a></p></div>
+        <div class="youtube"><p><a href="">Watch us on</a></p></div>
+        <div class="visit-us"><p><a href="">Visit us</a> </p></div>
     </div> 
 </section>
 
 <section class="content2">
-    <div class="sermon">
-        <p>Latest Sermons</p>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/xqL0WfqxH7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="video"></div>
-    <div class="video"></div>
-    <div class="video"></div>
-    <div class="video"></div>
-    <div class="video"></div>
-    <div class="video"></div>
-    <div class="see-more">
-        <span>
-        see more>
-        </span>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/AtuTytgyqvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/RBjXk-VPq8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="video">
+    <iframe width="100%" height="200" src="https://www.youtube.com/embed/N2CLbUXgG-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     <div class="pastor-description">
         <div class="description-text">
@@ -82,8 +86,7 @@
         </div>
     </div>
 </section>
-
 </section>
     
-
+ 
 <?php include './cpim/templates/footer.php' ?>

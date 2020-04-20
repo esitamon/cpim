@@ -8,23 +8,30 @@
     <div class="logo-description">
         <p>Experiencing his love, Displaying his power</p> 
     </div>
-    <div class="footer-nav">
+    <div class="connect">
         <ul>
-            <li><span>Connect</span>/li> 
+            <li><span>Connect</span></li> 
             <li><a href="">Join group</a></li>
         </ul>
+    </div>
+    <div class="grow">
         <ul>
             <li>Grow</li>
             <li><a href="">Kids</a></li>
             <li><a href="">Events</a></li>
             <li><a href="">Classes</a></li>
         </ul>
+    </div>
+    <div class="about">
         <ul>
             <li>About us</li>
             <li><a href="">Our story</a></li>
             <li><a href="">Contact us</a></li>
-        </ul>
+        </ul>  
     </div>
+</section>
+<section class="social-bar">
+    <span>Copyright christpalace</span>
 </section>
 </footer>
 </body>
