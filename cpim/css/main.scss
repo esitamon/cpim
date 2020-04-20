@@ -27,7 +27,7 @@
     @mixin wrapper-grid-template {
         display: grid;
         grid-template-columns: auto; 
-        grid-template-rows: 600px auto auto;
+        grid-template-rows: 800px auto auto;
         row-gap: 60px;
     }
     @mixin list-style {
@@ -82,20 +82,21 @@ body{
 .content1{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 100%;
 }
 
     /* button give */
 
     .button-give{
         p a{
+            width:120px;
             position: absolute;
             display: inline-block;
-            padding: 14px 30px 14px 30px;
+            padding: 12px 30px 12px 30px;
             background-color: $button-color;
             text-decoration:none;
-            
-             text-align: justify;
+            text-align: center;
+            vertical-align: middle;
             top: 5%;
             right: 5%;
             color: $secondary-textcolor;
@@ -133,7 +134,7 @@ body{
 
 nav{
     position: absolute;
-    top: 5%;
+    top: 6%;
     right:25%;
     @include list-style();
     z-index: 1;
@@ -141,6 +142,37 @@ nav{
     ul li a{
         @include link-styling();
         color: $secondary-textcolor;
+        margin-right:2em;
+        line-height: 1.2em;
+    }
+    ul li a:hover{
+        color: $button-color;
+    }
+
+}
+.media-button{
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    margin: 0 auto;
+    top: 60%;
+    left: 45%;
+    div p a{
+        display: inline-block;
+        text-decoration: none;
+        color: $secondary-textcolor;
+        text-align: center;
+    }
+    .youtube{
+        width: 160px;
+        background-color: rgba(149, 165, 166,0.5);
+        height: 60px;
+        padding: 24px;
+        border-radius: 2px;
+       
+    }
+    .youtube:hover{
+        background-color: rgba(230, 126, 34,0.6);
     }
 
 }
@@ -177,7 +209,7 @@ nav{
 .content2{
     display: grid;
     grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 200px 200px auto auto;
+    grid-template-rows: 400px 400px auto auto;
     row-gap: 15px;
     column-gap: 15px;
     justify-content: center;
@@ -213,23 +245,24 @@ nav{
 
 .video{
     width: 100%;
-    height: 200px;
-    background-color: rgba(52, 73, 94,1.0);
+    height: 400px;
+    background-color: rgba(236, 240, 241,1.0);
     align-self: center;
     justify-self: center;
+    padding: 2%;
 }
 .pastor-description{
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
     width: 100%;
-    height: 400px;
-    background-color: rgba(189, 195, 199,1.0);
+    height: 500px;
+    background-color: rgba(236, 240, 241,1.0);
     grid-column: 1/4;
 }
 .pastor-picture img{
     width:100%;
-    height: 400px;
+    height: 500px;
 } 
 
 

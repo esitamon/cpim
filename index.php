@@ -28,30 +28,48 @@
 
     </div>
     <div class="media-button">
-        <div class="our-pastor"> <p><a href="">About Our Pastor</a></p></div>
-        <div class="youtube"><p><a href="">Watch us on</a></p></div>
-        <div class="visit-us"><p><a href="">Visit us</a> </p></div>
+       
+        <div ><p><a class="youtube" href="">Watch Now</a></p></div>
     </div> 
 </section>
 
 <section class="content2">
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/xqL0WfqxH7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/xqL0WfqxH7o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-title">
+        <p>Je suis un titre</p>
+    </div>
     </div>
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-title">
+        <p>Je suis un titre</p>
+    </div>
     </div>
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/cmpRBETOuRI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-title">
+        <p>Je suis un titre</p>
+    </div>
     </div>
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/AtuTytgyqvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/AtuTytgyqvo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="video-title">
+        <p>Je suis un titre</p>
+    </div>
     </div>
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/RBjXk-VPq8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/RBjXk-VPq8o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-title">
+        <p>Je suis un titre</p>
     </div>
+    </div>
+    
     <div class="video">
-    <iframe width="100%" height="200" src="https://www.youtube.com/embed/N2CLbUXgG-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" height="300" src="https://www.youtube.com/embed/N2CLbUXgG-E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="video-title">
+        <p>Je suis un titre</p>
+    </div>
     </div>
     <div class="pastor-description">
         <div class="description-text">
