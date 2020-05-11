@@ -27,7 +27,7 @@
     @mixin wrapper-grid-template {
         display: grid;
         grid-template-columns: auto; 
-        grid-template-rows: 800px auto auto;
+        grid-template-rows: 700px auto auto auto;
         row-gap: 60px;
     }
     @mixin list-style {
@@ -106,9 +106,6 @@ body{
     }
     /* nav */
 
-    nav{
-
-    }
 
     /*logo*/
 
@@ -214,7 +211,20 @@ nav{
     column-gap: 15px;
     justify-content: center;
     justify-items: center;
+
+  
+    
 }
+.video-headline{
+    text-align: center;
+    align-self: center;
+    justify-content: center;
+    padding: 16px;
+    h1{
+        font-size: 30px;
+    }
+}
+
 .visiting-info{
     width: 100%;
     display: grid;
@@ -249,7 +259,7 @@ nav{
     background-color: rgba(236, 240, 241,1.0);
     align-self: center;
     justify-self: center;
-    padding: 2%;
+    padding: 5%;
 }
 .pastor-description{
     display: grid;

@@ -22,8 +22,8 @@ body {
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  -ms-grid-rows: 800px auto auto;
-      grid-template-rows: 800px auto auto;
+  -ms-grid-rows: 700px auto auto auto;
+      grid-template-rows: 700px auto auto auto;
   row-gap: 60px;
   row-gap: 15px;
 }
@@ -170,6 +170,21 @@ nav ul li a:hover {
   justify-items: center;
 }
 
+.video-headline {
+  text-align: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px;
+}
+
+.video-headline h1 {
+  font-size: 30px;
+}
+
 .visiting-info {
   width: 100%;
   display: -ms-grid;
@@ -218,7 +233,7 @@ nav ul li a:hover {
       align-self: center;
   -ms-grid-column-align: center;
       justify-self: center;
-  padding: 2%;
+  padding: 5%;
 }
 
 .pastor-description {
